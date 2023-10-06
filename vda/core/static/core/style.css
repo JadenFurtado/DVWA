@@ -1,0 +1,118 @@
+body {
+  background-color: #2B3D41;
+  padding-top: 3vw;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #4C5F6B;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  z-index: 1; /* Stay on top */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.cardForm {
+  background-color: #83A0A0;
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  margin: auto;
+  margin-top: 10vw;
+  white-space:pre-wrap;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+}
+.loginButton {
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    background:linear-gradient(to bottom, #00456e 5%, #445761 100%);
+    background-color:#445761;
+    border-radius:3px;
+    border:1px solid #124d77;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #154682;
+    margin-left: 7vw;
+}
+.loginButton:active {
+    position:relative;
+    top:1px;
+}
+.stdout {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  margin: auto;
+  margin-top: 1vw;
+  white-space:pre-wrap;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+}
+table {
+  border-spacing: 15px;
+  border-collapse: separate;
+}
+.linkButton {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 15vw; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #688086;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 3vw;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.navinfo {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
